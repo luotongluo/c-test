@@ -3,4 +3,4 @@ https://www.cnblogs.com/winslam/p/11147396.html
 http://blog.chinaunix.net/uid-354915-id-3772568.html
 
 #编译资源
- gcc Cx-4-2.cpp -lstdc++ -o Cx-4-2
+ gcc cx-4-7.cpp -lstdc++ -o cx-4-7

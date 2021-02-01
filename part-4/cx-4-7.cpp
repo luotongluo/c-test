@@ -12,10 +12,10 @@ return real;
 }
 };
 
- main(){
+int main(){
 MyCom c1(1.2,2.3);
 cout << (double)c1 << endl;
 double n = 12 + c1;
 cout << n << endl;
-
+return 0;
 }
