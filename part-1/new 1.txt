@@ -1,4 +1,0 @@
-git remote add github https://github.com/luotongluo/Test-Daily.git
-
-
-gcc cx1-10.cpp -lstdc++ -o cx1-10
