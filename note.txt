@@ -4,7 +4,7 @@ http://blog.chinaunix.net/uid-354915-id-3772568.html
 
 #编译资源
  gcc cx-4-7.cpp -lstdc++ -o cx-4-7
- 
+ g++ *.cpp -o fileName
  然后执行文件的方式为：
  ./cx-4-7
  
