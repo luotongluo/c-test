@@ -4,3 +4,9 @@ http://blog.chinaunix.net/uid-354915-id-3772568.html
 
 #编译资源
  gcc cx-4-7.cpp -lstdc++ -o cx-4-7
+ 
+ 然后执行文件的方式为：
+ ./cx-4-7
+ 
+ 编译c资源 编译多个资源
+ gcc test1.c test2.c -o main.out
