@@ -5,7 +5,7 @@ int main()
 {
 int a =10;
     for (int b = 0; a < b;a ++){
-    swich(b){
+    switch(b){
         case 1 :
         cout << "value is "<< b <<endl;
         break;
