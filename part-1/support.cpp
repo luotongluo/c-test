@@ -3,8 +3,8 @@ using namespace std;
 
 extern int count;
 
-int main()
+void write_extern(void)
 {
 cout << "count is "<< count << endl;
-return 0;
+
 }
