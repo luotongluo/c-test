@@ -5,6 +5,6 @@ int main()
 {
 for(;;)
     {
-    printf("this loop will run …… \n");
+    cout << "this loop will run …… \n" << endl;
     }
 }
