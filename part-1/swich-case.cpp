@@ -14,7 +14,6 @@ int a =10;
         break;
         default:
         cout << "this is defult code" << endl;
-        break;
 
     }
     }
