@@ -13,8 +13,10 @@ int main()
 
 	cout << "本地时间和日期："<< dt << endl;
 
+	// 把 now 转换为 tm 结构
 	tm *gmtm = gmtime(&now);
-	dt = asctime(gmtime);
+	dt = asctime(gmtm);
 	cout << "UTC 日期和时间" << dt << endl;
-	
+
+	return 0;
 }
