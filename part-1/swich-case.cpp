@@ -4,7 +4,8 @@ using namespace std;
 int main()
 {
 int a =10;
-    for (int b = 0; a < b;a ++){
+int b;
+    for ( b = 0; a < b;a ++){
     switch(b){
         case 1 :
         cout << "value is "<< b <<endl;
