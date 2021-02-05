@@ -17,7 +17,7 @@ public:
 	{
 		height = h;
 	}
-	void Shape()
+	Shape()
 	{
 		cout << "Shape 构造函数"<<endl;
 	}
@@ -33,11 +33,11 @@ protected:
 class PaintCost
 {
 public:
-	int getCost()
+	int getCost(int area)
 	{
 		return area * 70;
 	}
-	void PaintCost()
+	PaintCost()
 	{
 		cout << "PaintCost 构造函数"<<endl;
 	}
@@ -62,7 +62,7 @@ int main()
 	rect.setWidth(7);
 
 	cout << "total area :" << rect.getArea() << endl;
-	cout << "total cost:"  << rect.getCost() << endl;
+	cout << "total cost:"  << rect.getCost(rect.getArea()) << endl;
 
 	return 0;
 }
