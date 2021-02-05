@@ -26,7 +26,7 @@ class Rectangle : public Shape
 	{
 		return (width * height);
 	}
-}
+};
 
 int main()
 {
