@@ -53,6 +53,14 @@ class Rectangle : public Shape,public PaintCost
 	{
 		return (width * height);
 	}
+	Rectangle()
+	{
+		cout << "Rectangle 构造函数"<<endl;
+	}
+	~Rectangle()
+	{
+		cout << "Rectangle 析构函数"<<endl;
+	}
 };
 
 int main()
