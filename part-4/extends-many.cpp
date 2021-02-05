@@ -17,13 +17,36 @@ public:
 	{
 		height = h;
 	}
-
+	void Shape()
+	{
+		cout << "Shape 构造函数"<<endl;
+	}
+	~Shape()
+	{
+		cout << "Shape 析构函数"<<endl;
+	}
 protected:
 	int width;
 	int height;
 };
 
-class Rectangle : public Shape
+class PaintCost
+{
+public:
+	int getCost()
+	{
+		return area * 70;
+	}
+	void PaintCost()
+	{
+		cout << "PaintCost 构造函数"<<endl;
+	}
+	~PaintCost()
+	{
+		cout << "PaintCost 析构函数"<<endl;
+	}
+};
+class Rectangle : public Shape,public PaintCost
 {
 	public :
 	int getArea()
@@ -39,6 +62,7 @@ int main()
 	rect.setWidth(7);
 
 	cout << "total area :" << rect.getArea() << endl;
+	cout << "total cost:"  << rect.getCost() << endl;
 
 	return 0;
 }
