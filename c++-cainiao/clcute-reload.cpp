@@ -33,7 +33,7 @@ class Box
 		double length;
 		double breadth;
 		double height;
-}
+
 };
 
 
