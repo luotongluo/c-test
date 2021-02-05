@@ -70,7 +70,7 @@ int main()
 	rect.setWidth(7);
 
 	cout << "total area :" << rect.getArea() << endl;
-	cout << "total cost:"  << rect.getCost(rect.getArea()) << endl;
+	cout << "total cost:$"  << rect.getCost(rect.getArea()) << endl;
 
 	return 0;
 }
