@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
 /*
-多态的测试类
+多态的测试类 使用virtual 关键字
+参考菜鸟博客
+https://www.runoob.com/cplusplus/cpp-polymorphism.html
 */
 
 class Sahpe
@@ -14,7 +16,7 @@ public:
 		width = a;
 		height = b;
 	}
-	int area ()
+	virtual int area ()
 	{
 		cout << "parent class area" <<endl;
 		return 0;
