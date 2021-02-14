@@ -18,7 +18,7 @@ printf("鸡翁的 loopx ： %d \n",loopX);
 int loopY = 100 / ymon;
 printf("鸡母的 loopY ： %d \n",loopY);
 int loopZ = (100 / z3mon) > 100 ? 100 : (100 / z3mon);
-printf("鸡母的 loopY ： %d \n",loopY);
+printf("鸡母的 loopY ： %d \n",loopZ);
 for (x = 1;x <= loopX; x ++ ){
 //鸡母最多能购买 100 / 3 向上取整
     for (y = 1;y <= loopY; y ++){
