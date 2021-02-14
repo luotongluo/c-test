@@ -11,13 +11,5 @@ void main()
     scanf("%d",&y);
     scanf("%d",&z);
     int value =xmon * x + ymon * y + z3mon * z;
-    printf(" %d:\n %d * %d + %d * %d +  %d * %d = %d \n",value,xmon,x,ymon , y , z3mon , z,value);
+    printf("value: %d:\n %d * %d + %d * %d +  %d * %d = %d \n",value,xmon,x,ymon , y , z3mon , z,value);
 }
-/**
-鸡翁： 2,鸡母 30, 鸡雏 68
-鸡翁： 5,鸡母 25, 鸡雏 70
-鸡翁： 8,鸡母 20, 鸡雏 72
-鸡翁： 11,鸡母 15, 鸡雏 74
-鸡翁： 14,鸡母 10, 鸡雏 76
-鸡翁： 17,鸡母 5, 鸡雏 78
-*/
