@@ -5,7 +5,7 @@ void main()
     int mon = 100;
     int xmon = 5;
     int ymon = 3;
-    int z3mon = 1.0 / 3.0;
+    double z3mon = 1.0 / 3.0;
     printf("请输入 鸡翁，鸡母，鸡雏的数量\n");
     scanf("%d",&x);
     scanf("%d",&y);
