@@ -26,7 +26,7 @@ printf("鸡雏的 loopZ ： %d \n",loopZ);
 for (x = 1;x <= loopX; x ++ ){
 //鸡母最多能购买 100 / 3 向上取整
     for (y = 1;y <= loopY; y ++){
-     for(z = 1 ; z < loopZ; z++){
+     for(z = 1 ; z <= loopZ; z++){
         if (x + y + z ==100 && xmon * x + ymon * y + z3mon * z == 100 ){
         printf("鸡翁： %d,鸡母 %d, 鸡雏 %d \n", x,y,z);
         }
