@@ -1,5 +1,7 @@
 #include<stdio.h>
-
+/**
+输入三个整数，并且从大到小的顺序排序
+*/
 void main()
 {
 int x,y,z,system;
