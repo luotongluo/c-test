@@ -19,10 +19,10 @@ int loopY = 100 / ymon;
 printf("鸡母的 loopY ： %d \n",loopY);
 int loopZ = (100 / z3mon) > 100 ? 100 : (100 / z3mon);
 printf("鸡母的 loopY ： %d \n",loopY);
-for (x = 1;a <= loopX; x ++ ){
+for (x = 1;x <= loopX; x ++ ){
 //鸡母最多能购买 100 / 3 向上取整
     for (y = 1;y <= loopY; y ++){
-     for(z = 1 ; z< loopZ; z++){
+     for(z = 1 ; z < loopZ; z++){
         if (x + y + z ==100 && xmon * x + ymon * y + z3mon * z == 100 ){
         printf("鸡翁： %d,鸡母 %d, 鸡雏 %d \n", x,y,z);
         }
