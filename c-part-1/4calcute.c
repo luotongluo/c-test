@@ -7,7 +7,7 @@ void main()
 float x =1,y=2;
 char op = '+';
 printf("当前计算的运算符是：%c,数字为：%f,%f");
-switch(op)
+switch(op){
 case '+':
     printf("%d+%d = ",x,y,x + y);break;
     case '-':
@@ -21,4 +21,5 @@ case '/':
     printf("%f*%f = ",x,y,x / y);break;
 default:
     printf("输入的运算符不在四则运算符之内");
+}
 }
