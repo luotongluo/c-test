@@ -14,7 +14,7 @@ int x,y,z;
 int mon = 100;
 int xmon = 5;
 int ymon = 3;
-int z3mon = 1.0 / 3.0;
+double z3mon = 1.0 / 3.0;
 //鸡翁的数量不会超过20只
 int loopX = 100 / xmon;
 printf("鸡翁的 loopx ： %d \n",loopX);
