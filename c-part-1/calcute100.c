@@ -11,5 +11,5 @@ void main()
     scanf("%d",&y);
     scanf("%d",&z);
     int value =xmon * x + ymon * y + z3mon * z;
-    printf("value: %d:\n %d * %d + %d * %d +  %d * %d = %d \n",value,xmon,x,ymon , y , z3mon , z,value);
+    printf("value: %d:\n %d * %d + %d * %d +  %f * %d = %d \n",value,xmon,x,ymon , y , z3mon , z,value);
 }
