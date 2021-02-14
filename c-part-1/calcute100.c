@@ -9,7 +9,7 @@ void main()
     printf("请输入 鸡翁，鸡母，鸡雏的数量\n");
     scanf("%d,%d,%d",&x,&y,&z);
     int value =xmon * x + ymon * y + z3mon * z;
-    printf(" %d:"value);
+    printf(" %d:",value);
 }
 /**
 鸡翁： 2,鸡母 30, 鸡雏 68
