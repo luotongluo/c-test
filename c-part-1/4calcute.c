@@ -15,7 +15,7 @@ case '+':
  case '*':
     printf("%d*%d = ",x,y,x * y);break;
 case '/':
-    if(y == 0D){
+    if(y == 0){
     printf("除数不能为0");
     }
     printf("%f*%f = ",x,y,x / y);break;
