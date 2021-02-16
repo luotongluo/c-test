@@ -8,7 +8,7 @@ void main(){
     printf("请输入10个数据： \n ");
     for(i = 0 ; i < loop ; i++){
         scanf("%d",&a[i]);
-        printf("%d : \n",i);
+        printf("!!!!!!%d : \n",i);
     }
 
     for(i = 0;i < loop;i ++){

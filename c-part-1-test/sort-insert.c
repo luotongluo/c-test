@@ -23,5 +23,9 @@ if( i > 0){
     a[i] = a[i + 1];
     }
 }
+printf("sort：");
 
+for(i =0;i < 6;i++){
+printf("%d \t",a[i]);
+}
 }
