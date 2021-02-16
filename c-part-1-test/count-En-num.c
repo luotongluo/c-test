@@ -2,7 +2,7 @@
 /**
 编写一个函数，统计一个字符串中的出现的字母的个数
 */
-int isSlap(char a){
+int isSlap(char c){
     //bool judge = ;
     if(c > 'a' && c < 'z' || (c > 'A' && c < 'Z')){
     return 1;

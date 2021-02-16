@@ -6,8 +6,9 @@ void main(){
     int a[10],i,j,min,temp;
     int loop = 10;
     printf("请输入10个数据： \n ");
-    for(i =0 ; i < loop ; i++){
+    for(i = 0 ; i < loop ; i++){
         scanf("%d",&a[i]);
+        printf("%d : \n",i);
     }
 
     for(i = 0;i < loop;i ++){
