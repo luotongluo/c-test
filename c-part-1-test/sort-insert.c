@@ -20,7 +20,7 @@ for(i = 0;i < loop;i++){
 if( i > 0){
     for(i;i<= loop; i ++){
     temp = a[i];
-    a[i] = [i +1];
+    a[i] = [i + 1];
     }
 }
 
