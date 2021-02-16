@@ -1,4 +1,4 @@
-#include <include.h>
+#include <stdio.h>
 /**
 编写一个函数，统计一个字符串中的出现的字母的个数
 */

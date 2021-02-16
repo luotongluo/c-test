@@ -1,4 +1,4 @@
-#include <include.h>
+#include <stdio.h>
 /**
 利用选择排序对数字进行排序并进行输出，数字来源 键盘输入
 */
