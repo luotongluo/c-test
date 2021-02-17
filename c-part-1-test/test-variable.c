@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-
+自动型变量与静态变量的区别
 */
 void auto_ststic(){
     int car_auto = 0;
