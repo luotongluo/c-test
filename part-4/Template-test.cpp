@@ -11,9 +11,10 @@ T min(T m1,T m2)
 {
     return (m1 > m2 )? m2 : m1;
 }
-void main()
+int main()
 {
     cout << max("abc","aBc") << endl;
     cout << min("abc","aBc") << endl;
     cout << min<int>(1.2,3.4) << endl;
+    return 0;
 }
