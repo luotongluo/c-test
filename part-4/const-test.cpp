@@ -14,12 +14,13 @@ public:
 };
 
 class BaseB:public Base{
-BaseB(){
-    cout << "Base 无参构造函数" << endl;
+   public:
+    BaseB(){
+    cout << "BaseB 无参构造函数" << endl;
     }
 
     ~BaseB(){
-    cout << "Base 析构函数" << endl;
+    cout << "BaseB 析构函数" << endl;
     }
 };
 
